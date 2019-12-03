@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SMS_AndroidFrontend</string>
+
+    <string name="pref_token_label" translatable="false">token</string>
+    <string name="pref_token_key" translatable="false">token</string>
+    <string name="pref_token_default" translatable="false">vide</string>
+
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+
+    <string name="new_registration">Register New Student</string>
+    <string name="list_student">List Students</string>
+    <string name="search_student">Search Students</string>
+    <string name="share_info">Share Information</string>
+
+    <string name="list_user">List User</string>
+    <string name="new_password">Create New User</string>
+    <string name="edit_user">Edit User</string>
+    <string name="delete_user">Delete User</string>
+    <string name="logout">Logout</string>
+
+    <string name="menu_left">Menu Left</string>
+    <string name="menu_right">Menu Right</string>
+
+</resources>

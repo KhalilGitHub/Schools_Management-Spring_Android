@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".LoginActivity">
+
+    <include
+        android:id="@+id/tlb_main_page"
+        layout="@layout/app_bar_layout">
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/img_login"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:src="@mipmap/img_login_03"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:scaleType="fitXY"
+
+                />
+
+            <EditText
+                android:id="@+id/edt_login_username"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_login"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"
+                android:hint="Enter User Name"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/style_edit_text_01"
+                />
+
+            <EditText
+                android:id="@+id/edt_login_password"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/edt_login_username"
+                android:padding="10dp"
+                android:hint="Enter Password"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/style_edit_text_01"
+                />
+
+            <Button
+                android:id="@+id/btn_login_connect"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/edt_login_password"
+                android:layout_marginTop="35dp"
+                android:text="Connect"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/style_btn_text_01"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

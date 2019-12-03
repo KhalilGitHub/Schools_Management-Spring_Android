@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_student"
+        android:icon="@drawable/ic_student_black"
+        android:title="@string/list_student">
+    </item>
+
+    <item
+        android:id="@+id/nav_student_marks"
+        android:icon="@drawable/ic_student_marks_02"
+        android:title="@string/new_registration">
+    </item>
+
+    <item
+        android:id="@+id/nav_receipt"
+        android:icon="@drawable/ic_receipt"
+        android:title="@string/search_student">
+    </item>
+
+    <item
+        android:id="@+id/nav_teacher"
+        android:icon="@drawable/ic_teacher"
+        android:title="@string/search_student">
+    </item>
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share_info">
+    </item>
+
+</menu>

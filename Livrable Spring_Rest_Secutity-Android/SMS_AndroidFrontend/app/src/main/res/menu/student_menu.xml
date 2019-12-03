@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itm_list_student"
+        android:icon="@drawable/ic_list"
+        android:title="@string/list_student">
+    </item>
+
+    <item
+        android:id="@+id/itm_new_registration"
+        android:icon="@drawable/ic_new_registration"
+        android:title="@string/new_registration">
+    </item>
+
+    <item
+        android:id="@+id/itm_search_student"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search_student">
+    </item>
+
+
+</menu>
